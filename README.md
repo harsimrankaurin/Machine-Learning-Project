@@ -1,5 +1,4 @@
-## Customer Segmentation using Clustering to Scale Collaborative Filtering and Sentiment Classification to Recommend
-Niche Restaurants
+## Customer Segmentation using Clustering to Scale Collaborative Filtering and Sentiment Classification to Recommend Niche Restaurants
 
 Recommendation systems experience the curse of scalability. This project addresses the gap by using *K-Means* for clustering customers based on their food preferences that are uniquely gathered from their reviews.
 The proposed recommender is based on *collaborative filtering* functioning on the respective previously assigned user clusters through K-Means. A sentiment classifier for reviews is developed to aid recommendations for niche restaurants using classification models. *Dimension reduction* was introduced through PCA and T-SVD to increase efficiency where T-SVD provided better variation ratio and runtimes.  
